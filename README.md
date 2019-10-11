@@ -1,5 +1,5 @@
 # Contents
-1. [Adaptive Parking Space Detection](#1. Adaptive Parking Space Detection)
+1. [Adaptive Parking Space Detection](#adaptive parking space detection)
 
 2. Introduction
 
