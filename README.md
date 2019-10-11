@@ -65,6 +65,8 @@ FCNs are a converted form of convolutional neural network in which the fully con
 
 
 
+# 3.2. Different Variants of a Region-Based CNN (R-CNN)
+
 
 
 
