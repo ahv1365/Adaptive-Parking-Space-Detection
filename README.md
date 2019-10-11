@@ -1,4 +1,7 @@
-# Contents
+##### Table of Contents  
+[1. Adaptive Parking Space Detection](#Adaptive Parking Space Detection)  
+[Emphasis](#emphasis)  
+
 1. [Adaptive Parking Space Detection](#adaptive parking space detection)
 
 2. Introduction
@@ -27,7 +30,9 @@
 
 8. Documentation 
 
-# 1. Adaptive Parking Space Detection
+
+<a name="Adaptive Parking Space Detection"/>
+## 1. Adaptive Parking Space Detection
 
 This repository focuses on the implementation of the novel object detection regional convolutional network algorithm Mask R-CNN as a system for recognizing the empty spaces in the warehouse parking areas by detecting trucks and cars in the video frames. The process starts with finding and assigning label on the all potential parking spots. This process accomplishes with the help of pre-trained Microsoft COCO dataset and a designed ResNet 101 network on instance segmentation model Mask R-CNN.
   
