@@ -5,19 +5,19 @@
 
 3. Convolutional neural networks (CNN)
 
-     3.1. Fully Convolutional Network (FCN)
+    3.1. Fully Convolutional Network (FCN)
 
-     3.2. Different Variants of a Region-Based CNN (R-CNN)
+    3.2. Different Variants of a Region-Based CNN (R-CNN)
 
-          3.2.1.	R-CNN
+      3.2.1. R-CNN
 
-          3.2.2. Fast R-CNN
+      3.2.2. Fast R-CNN
 
-          3.2.3. Faster R-CNN
+      3.2.3. Faster R-CNN
 
 4. Object Detection
 
-     4.1. Mask R-CNN
+    4.1. Mask R-CNN
 
 5. Parking Lot Object Detection Implementation
 
