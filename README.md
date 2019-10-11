@@ -2,13 +2,13 @@
 1. Adaptive Parking Space Detection
 2. Introduction
 3. Convolutional neural networks (CNN)
-3.1	Fully Convolutional Network (FCN)
-3.2 Different Variants of a Region-Based CNN (R-CNN)
-3.2.1	R-CNN
-3.2.2 Fast R-CNN
-3.2.3 Faster R-CNN
+3.1.	Fully Convolutional Network (FCN)
+3.2. Different Variants of a Region-Based CNN (R-CNN)
+3.2.1.	R-CNN
+3.2.2. Fast R-CNN
+3.2.3. Faster R-CNN
 4. Object Detection
-4.1 Mask R-CNN
+4.1. Mask R-CNN
 5. Parking Lot Object Detection Implementation
 6. Mobile Application
 7. Conclusion 
@@ -35,7 +35,7 @@ Convolutional Neural Networks (CNN) are a special type of neural network for pro
 Convolutional neural networks also called CNN is an artificial neural network mostly use for image analyzing and also can be used for analyzing data and classification problems. Generally, CNN recognize the patterns precisely and extract some meaningful results from these patterns which makes CNN a useful tool for image analysis.  The difference of CNN and other neural networks such as Multi-layer perception (MLP) is the hidden layers named convolutional layers as well and other non-convolutional layers.  Convolutional layers transfer inputs to other layers with the operation called convolutional operation. 
 Filters are the tools by which the patterns are detected which are specified with every convolutional layer. The patterns in an image are edges, texture objects and so on which the filter used for detecting edges is called edge detector or in more advance circles and square detector which are geometric filters. By moving forward in into the network the filters can be more advanced for detecting complex objects such as eye or ear moving towards detecting animals, objects and human. 
 
-# 3.1	Fully Convolutional Network (FCN)
+# 3.1.	Fully Convolutional Network (FCN)
 
 FCNs are a converted form of convolutional neural network in which the fully connected layer replaced with a 1x1 convolution kernel size make the FCN model benefits from a pre-trained CNN. Fully connected layers in CNN require a certain image size such as AlexNet with image size of 224x224 but for FCNs this limitation will be lift up and input size has no limitation. The paper from Jonathan Long, Evan Shelhamer and Trevor Darrel on "Fully Convolutional Networks for Semantic Segmentation" explains the features of FCN with regards of semantic (pixel wise classification) (6). These features can be described by the way the model works in converting an original image to a semantic segmented image by using different convolution blocks and max pool layers to expand an image to smaller size than its original size. Then class prediction ends up with sampling and deconvolution layers to convert the image to the original size.
 
