@@ -37,6 +37,7 @@ This repository focuses on the implementation of the novel object detection regi
   
 
 
+
 [<img src="https://i.imgur.com/66qlrLE.jpg" align="center" width="850">](https://flutter.dev/)
 
 <a name="Introduction"/>
@@ -67,13 +68,77 @@ FCNs are a converted form of convolutional neural network in which the fully con
 
 # 3.2. Different Variants of a Region-Based CNN (R-CNN)
 
+Creation of region convolutional neural network was to solve the problem of multiple objects detection in an image which with CNN it was computationally overwhelming process. In R-CNN there are two stages of identifying the regions of object (region Proposals) in the image and then classifying the object in the detected region. The three forms of regional object detectors are:
+
+<a name="R-CNN"/>
+
+# 3.2.1.	R-CNN
+
+Region convolutional neural network is a deep learning object detection based on CNN which in the below the structure of the model is illustrated.
+
+[<img src="https://i.imgur.com/k3piqdQ.png" align="center" width="850">](https://flutter.dev/)
+
+<a name="Fast"/>
+
+# 3.2.2.	Fast R-CNN
+
+Fast R-CNN introduced to solve the problems of time-consuming process of training and non-learning of R-CNN algorithm. In compare to R-CNN faster R-CNN process the entire image instead of cropping out and resizing and also by a max pooling CNN layer both feature extraction and ROI input layer are classified.
 
 
+[<img src="https://i.imgur.com/S2T4MNq.png" align="center" width="850">](https://flutter.dev/)
+
+<a name="Faster"/>
+
+# 3.2.3.	Faster R-CNN
+
+In Faster R-CNN region proposals are predicted by a separated network and then will be reshaped by a ROI pooling layer.
+
+[<img src="https://i.imgur.com/i3NmpQs.png" align="center" width="850">](https://flutter.dev/)
+
+<a name="Object"/>
+
+# 4. Object Detection
+
+A technique in computer vision to identify the location of object instances in the image is called object detection. In order to design an object detection algorithm, it is required to understand the fundamental of image.
+
+
+<a name="Mask"/>
+
+# 4.1. Mask R-CNN
+
+In the recent years there has happened many progresses in the field of object detection also sematic segmentation as a challenging problem so far. Instant segmentation is a combination of object detection and semantic segmentation (understanding of an image at the pixel level) tries to detect individual objects as well as a mask of each instances and assigning an object class to each pixel in the image.
+
+<a name="Parking"/>
+
+# 5. Parking Lot Object Detection Implementation
+
+In this part the system is tested on a single photo in series to check the accuracy on the pre-adjusted confidence score and check whether confidence score needs to be redefined. The process is already executed on google Collaboratory an online cloud computing system. 
+
+
+[<img src="https://i.imgur.com/vutJuBu.png" align="center" width="850">](https://flutter.dev/)
+
+<a name="Mobile"/>
+
+# 6. Mobile Application
+
+Mobile application designed for visualizing the results to understand easier and faster the needed data in real time. The app designed for this project has the following features:
+•	Detection of empty and occupied places in real-time
+•	History records of the detection information
+•	Real-time image from the place
+•	The detection results of the image
+
+
+[<img src="https://i.imgur.com/apiaHLO.jpg" align="center" width="850">](https://flutter.dev/)
+
+<a name="Conclusion"/>
+
+# 7. Conclusion
+
+The system comparison indicates the time required in order an image go through the model and outcome extracts. For the first system model can examine whether in some sequential frames the parking space detected free, but this process takes longer time for the second low performance system to be accomplished. A solution for increasing the speed in the second system was reducing the resolution of the image which were resulted in lower detection accuracy. 
+In conclusion, mask R-CNN can also detect the small objects in the photo pixelwise in compare to other object detection models and the accuracy of the system is about 65% with a partially cloudy sky in compared to 26% in a sunny day. 
 
 
 ## Documentation
 
-* [Install Flutter](https://flutter.dev/get-started/)
-* [Flutter documentation](https://flutter.dev/docs)
-* [Development wiki](https://github.com/flutter/flutter/wiki)
-* [Contributing to Flutter](https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md)
+* [Mask R-CNN model](https://github.com/matterport/Mask_RCNN)
+
