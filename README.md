@@ -38,7 +38,7 @@ This repository focuses on the implementation of the novel object detection regi
 
 
 
-[<img src="https://i.imgur.com/66qlrLE.jpg" align="center" width="850">](https://flutter.dev/)
+[<img src="https://i.imgur.com/66qlrLE.jpg" align="center" width="850">](https://github.com/matterport/Mask_RCNN)
 
 <a name="Introduction"/>
 
@@ -62,7 +62,7 @@ Filters are the tools by which the patterns are detected which are specified wit
 FCNs are a converted form of convolutional neural network in which the fully connected layer replaced with a 1x1 convolution kernel size make the FCN model benefits from a pre-trained CNN. Fully connected layers in CNN require a certain image size such as AlexNet with image size of 224x224 but for FCNs this limitation will be lift up and input size has no limitation. The paper from Jonathan Long, Evan Shelhamer and Trevor Darrel on "Fully Convolutional Networks for Semantic Segmentation" explains the features of FCN with regards of semantic (pixel wise classification) (6). These features can be described by the way the model works in converting an original image to a semantic segmented image by using different convolution blocks and max pool layers to expand an image to smaller size than its original size. Then class prediction ends up with sampling and deconvolution layers to convert the image to the original size.
 
 
-[<img src="http://deeplearning.net/tutorial/_images/cat_segmentation.png" align="center" width="850">](https://flutter.dev/)
+[<img src="http://deeplearning.net/tutorial/_images/cat_segmentation.png" align="center" width="850">](https://github.com/matterport/Mask_RCNN)
 
 <a name="Different"/>
 
