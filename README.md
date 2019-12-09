@@ -131,7 +131,7 @@ Mobile application designed for visualizing the results to understand easier and
 [<img src="https://i.imgur.com/apiaHLO.jpg" align="center" width="850">](https://github.com/matterport/Mask_RCNN)
 
 
-[<img src="https://i.imgur.com/c3Qmlbw.gif" align="center" width="850">]
+[<img src="https://i.imgur.com/c3Qmlbw.gif" align="center" width="350">]
 
 
 <a name="Conclusion"/>
